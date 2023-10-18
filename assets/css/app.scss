@@ -9,6 +9,14 @@
   flex-direction: column;
   justify-content: space-between;
   height: 500px;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: scroll; /* Add vertical scrollbar */
+  flex-direction: column-reverse;
+}
+
+#chat-form {
+  padding: 1em;
+  margin: -1em 1em 1em -1em;
 }
 
 #chat-messages {
